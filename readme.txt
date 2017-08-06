@@ -24,3 +24,10 @@ The filename be of form: "xxx100.yyy" or "xxx1K.yyy"
 * yyy can be any file extension
 * A "K" will multiply the digit amount by 1000
 * The digit count can be of any size BUT must match the total number of integers in the file
+
+Written in Java jdk1.8.0_131
+
+Developed on Windows
+
+Used IntelliJ IDEA 2017.1.4
+--> Dumps compilation into out/production/ directory.
