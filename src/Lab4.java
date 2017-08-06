@@ -58,7 +58,38 @@ public class Lab4 {
 
   private static void parseFile(File f) {
     int numOfEntries = parseNameForExpectedSize(f.getName().toCharArray());
-    System.out.println(numOfEntries);
+    int[] input = new int[numOfEntries];
+    try {
+      int currChar;
+      char c;
+      int curr = 0;
+      int i = 0;
+      BufferedReader br = new BufferedReader(new FileReader(f));
+      while (((currChar = br.read()) != -1)) {
+        c = (char) currChar;
+        if (c == ' ') {
+          throw new IOException("Encountered whitespace in file: " + f.getName() + ". Skipping file");
+        } else if (IntParser.isDigit(c)) {
+          if (curr == 0) {
+            curr = IntParser.toDigit(c);
+          } else {
+            curr = curr * 10 + IntParser.toDigit(c);
+          }
+        } else if (c == '\r' || c == '\n') {
+          input[i] = curr;
+          curr = 0;
+          i++;
+          if (c == '\r') {
+            br.read();
+          }
+        } else {
+          throw new IOException("Invalid character. Digits only, please");
+        }
+      }
+    } catch (IOException e) {
+      System.err.println(e);
+    }
+    System.out.println(input[input.length-1]);
   }
 
   private static int parseNameForExpectedSize(char[] name) {
