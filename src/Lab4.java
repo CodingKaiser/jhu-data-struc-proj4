@@ -58,6 +58,7 @@ public class Lab4 {
 
   private static void parseFile(File f) {
     int numOfEntries = parseNameForExpectedSize(f.getName().toCharArray());
+    System.out.println("Length of file: " + numOfEntries);
     int[] input = new int[numOfEntries];
     try {
       int currChar;
@@ -86,10 +87,12 @@ public class Lab4 {
           throw new IOException("Invalid character. Digits only, please");
         }
       }
+      br.close();
     } catch (IOException e) {
       System.err.println(e);
     }
-    System.out.println(input[input.length-1]);
+    ShellSort.sort(input);
+    System.out.println();
   }
 
   private static int parseNameForExpectedSize(char[] name) {
