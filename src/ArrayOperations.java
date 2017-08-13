@@ -15,6 +15,13 @@ public class ArrayOperations {
     System.out.println();
   }
 
+  public static void printContentsDetail(int[] x) {
+    for (int i = 0; i < x.length; i++) {
+      System.out.print((i + 1) + ": " + x[i] + ", ");
+    }
+    System.out.println();
+  }
+
   public static void exchangeElements(int[] input, int i, int j) {
     int temp = input[i];
     input[i] = input[j];
