@@ -32,8 +32,10 @@ public class Lab4 {
     }
 
     for (File x : inputDir.listFiles()) {
+      System.out.println("**********************");
       System.out.println("Sorting file: " + x.getName());
       parseFile(x);
+      System.out.println("**********************");
     }
 //
 //    try {
@@ -91,7 +93,12 @@ public class Lab4 {
     } catch (IOException e) {
       System.err.println(e);
     }
+    System.out.println();
+    System.out.println("Sorting with ShellSort...");
     ShellSort.sort(input);
+    System.out.println();
+    System.out.println("Sorting with HeapSort...");
+    HeapSort.sort(input);
     System.out.println();
   }
 
