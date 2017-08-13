@@ -9,8 +9,17 @@ public class ShellSort {
     int[][] partitions = makePartitionsArray(toBeSorted);
     ArrayOperations.printContents(partitions[0]);
     for (int[] partition : partitions) {
-      int[] copy = ArrayOperations.makeCopy(toBeSorted);
-      shellSort(copy, partition);
+      AverageTimer at = new AverageTimer();
+      for (int i = 0; i < 7; i ++) {
+        int[] copy = ArrayOperations.makeCopy(toBeSorted);
+        at.startTimer();
+        shellSort(copy, partition);
+        at.stopTimer();
+        if (copy.length <= 50 && i == 0) {
+          ArrayOperations.printContents(copy);
+        }
+      }
+      System.out.println("Time elapsed: " + at.getAverage());
     }
   }
 
@@ -68,7 +77,6 @@ public class ShellSort {
   }
 
   private static void shellSort(int[] input, int[] partition) {
-    Long startTime = System.nanoTime();
     for (int skip : partition) {
       for (int i = 0; i < skip; i++) {
         for (int j = i; j < input.length; j+=skip) {
@@ -79,10 +87,6 @@ public class ShellSort {
           }
         }
       }
-    }
-    System.out.println("Time elapsed: " + (System.nanoTime() - startTime));
-    if (input.length <= 50) {
-      ArrayOperations.printContents(input);
     }
   }
 }
