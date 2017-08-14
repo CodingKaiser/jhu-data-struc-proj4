@@ -1,0 +1,360 @@
+*********************************************
+Sorting file: asc1K.dat
+Length of file: 1000
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 97762
+With step sizes: 149 53 17 5 1 
+Time elapsed: 24090
+With step sizes: 120 60 30 10 1 
+Time elapsed: 24077
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 68408
+With step sizes: 256 128 64 32 16 8 4 2 1 
+Time elapsed: 37547
+
+Sorting with HeapSort...
+Time elapsed: 465383
+
+*********************************************
+Sorting file: asc25K.dat
+Length of file: 25000
+
+Sorting with ShellSort...
+With step sizes: 3280 1093 364 121 40 13 4 1 
+Time elapsed: 362282
+With step sizes: 3371 1123 373 149 53 17 5 1 
+Time elapsed: 213899
+With step sizes: 3240 1080 360 120 60 30 10 1 
+Time elapsed: 205380
+With step sizes: 6561 2187 729 243 81 27 9 3 1 
+Time elapsed: 233566
+With step sizes: 8192 4096 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 396416
+
+Sorting with HeapSort...
+Time elapsed: 2469343
+
+*********************************************
+Sorting file: asc2K.dat
+Length of file: 2000
+
+Sorting with ShellSort...
+With step sizes: 364 121 40 13 4 1 
+Time elapsed: 22556
+With step sizes: 373 149 53 17 5 1 
+Time elapsed: 11845
+With step sizes: 360 120 60 30 10 1 
+Time elapsed: 11859
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 12357
+With step sizes: 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 19516
+
+Sorting with HeapSort...
+Time elapsed: 163429
+
+*********************************************
+Sorting file: asc50.dat
+Length of file: 50
+
+Sorting with ShellSort...
+With step sizes: 13 4 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 316
+With step sizes: 5 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 97
+With step sizes: 10 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 140
+With step sizes: 9 3 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 258
+With step sizes: 16 8 4 2 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 292
+
+Sorting with HeapSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 900
+
+*********************************************
+Sorting file: asc500.dat
+Length of file: 500
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 2582
+With step sizes: 149 53 17 5 1 
+Time elapsed: 2611
+With step sizes: 120 60 30 10 1 
+Time elapsed: 2524
+With step sizes: 81 27 9 3 1 
+Time elapsed: 2655
+With step sizes: 128 64 32 16 8 4 2 1 
+Time elapsed: 3999
+
+Sorting with HeapSort...
+Time elapsed: 23828
+
+*********************************************
+Sorting file: asc5K.dat
+Length of file: 5000
+
+Sorting with ShellSort...
+With step sizes: 1093 364 121 40 13 4 1 
+Time elapsed: 38176
+With step sizes: 1123 373 149 53 17 5 1 
+Time elapsed: 36453
+With step sizes: 1080 360 120 60 30 10 1 
+Time elapsed: 49909
+With step sizes: 729 243 81 27 9 3 1 
+Time elapsed: 36116
+With step sizes: 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 60605
+
+Sorting with HeapSort...
+Time elapsed: 419328
+
+*********************************************
+Sorting file: ran1K.dat
+Length of file: 1000
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 292568
+With step sizes: 149 53 17 5 1 
+Time elapsed: 56558
+With step sizes: 120 60 30 10 1 
+Time elapsed: 68335
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 63601
+With step sizes: 256 128 64 32 16 8 4 2 1 
+Time elapsed: 62315
+
+Sorting with HeapSort...
+Time elapsed: 154078
+
+*********************************************
+Sorting file: ran25K.dat
+Length of file: 25000
+
+Sorting with ShellSort...
+With step sizes: 3280 1093 364 121 40 13 4 1 
+Time elapsed: 2829175
+With step sizes: 3371 1123 373 149 53 17 5 1 
+Time elapsed: 2685949
+With step sizes: 3240 1080 360 120 60 30 10 1 
+Time elapsed: 5832762
+With step sizes: 6561 2187 729 243 81 27 9 3 1 
+Time elapsed: 5981469
+With step sizes: 8192 4096 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 4395114
+
+Sorting with HeapSort...
+Time elapsed: 2242421
+
+*********************************************
+Sorting file: ran2K.dat
+Length of file: 2000
+
+Sorting with ShellSort...
+With step sizes: 364 121 40 13 4 1 
+Time elapsed: 139933
+With step sizes: 373 149 53 17 5 1 
+Time elapsed: 137888
+With step sizes: 360 120 60 30 10 1 
+Time elapsed: 182132
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 184966
+With step sizes: 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 157906
+
+Sorting with HeapSort...
+Time elapsed: 131780
+
+*********************************************
+Sorting file: ran50.dat
+Length of file: 50
+
+Sorting with ShellSort...
+With step sizes: 13 4 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 608
+With step sizes: 5 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 568
+With step sizes: 10 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 477
+With step sizes: 9 3 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 739
+With step sizes: 16 8 4 2 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 668
+
+Sorting with HeapSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 974
+
+*********************************************
+Sorting file: ran500.dat
+Length of file: 500
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 21357
+With step sizes: 149 53 17 5 1 
+Time elapsed: 20233
+With step sizes: 120 60 30 10 1 
+Time elapsed: 24909
+With step sizes: 81 27 9 3 1 
+Time elapsed: 22191
+With step sizes: 128 64 32 16 8 4 2 1 
+Time elapsed: 21328
+
+Sorting with HeapSort...
+Time elapsed: 23242
+
+*********************************************
+Sorting file: ran5K.dat
+Length of file: 5000
+
+Sorting with ShellSort...
+With step sizes: 1093 364 121 40 13 4 1 
+Time elapsed: 422307
+With step sizes: 1123 373 149 53 17 5 1 
+Time elapsed: 395304
+With step sizes: 1080 360 120 60 30 10 1 
+Time elapsed: 604693
+With step sizes: 729 243 81 27 9 3 1 
+Time elapsed: 511892
+With step sizes: 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 541599
+
+Sorting with HeapSort...
+Time elapsed: 357737
+
+*********************************************
+Sorting file: rev1K.dat
+Length of file: 1000
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 13599
+With step sizes: 149 53 17 5 1 
+Time elapsed: 14023
+With step sizes: 120 60 30 10 1 
+Time elapsed: 16112
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 13043
+With step sizes: 256 128 64 32 16 8 4 2 1 
+Time elapsed: 18479
+
+Sorting with HeapSort...
+Time elapsed: 53548
+
+*********************************************
+Sorting file: rev25K.dat
+Length of file: 25000
+
+Sorting with ShellSort...
+With step sizes: 3280 1093 364 121 40 13 4 1 
+Time elapsed: 515298
+With step sizes: 3371 1123 373 149 53 17 5 1 
+Time elapsed: 548000
+With step sizes: 3240 1080 360 120 60 30 10 1 
+Time elapsed: 553201
+With step sizes: 6561 2187 729 243 81 27 9 3 1 
+Time elapsed: 475788
+With step sizes: 8192 4096 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 768842
+
+Sorting with HeapSort...
+Time elapsed: 2005913
+
+*********************************************
+Sorting file: rev2K.dat
+Length of file: 2000
+
+Sorting with ShellSort...
+With step sizes: 364 121 40 13 4 1 
+Time elapsed: 26822
+With step sizes: 373 149 53 17 5 1 
+Time elapsed: 28488
+With step sizes: 360 120 60 30 10 1 
+Time elapsed: 32523
+With step sizes: 243 81 27 9 3 1 
+Time elapsed: 28955
+With step sizes: 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 39098
+
+Sorting with HeapSort...
+Time elapsed: 118847
+
+*********************************************
+Sorting file: rev50.dat
+Length of file: 50
+
+Sorting with ShellSort...
+With step sizes: 13 4 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 1134
+With step sizes: 5 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 463
+With step sizes: 10 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 1149
+With step sizes: 9 3 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 420
+With step sizes: 16 8 4 2 1 
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 491
+
+Sorting with HeapSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 858
+
+*********************************************
+Sorting file: rev500.dat
+Length of file: 500
+
+Sorting with ShellSort...
+With step sizes: 121 40 13 4 1 
+Time elapsed: 5986
+With step sizes: 149 53 17 5 1 
+Time elapsed: 6046
+With step sizes: 120 60 30 10 1 
+Time elapsed: 6774
+With step sizes: 81 27 9 3 1 
+Time elapsed: 5724
+With step sizes: 128 64 32 16 8 4 2 1 
+Time elapsed: 7973
+
+Sorting with HeapSort...
+Time elapsed: 22044
+
+*********************************************
+Sorting file: rev5K.dat
+Length of file: 5000
+
+Sorting with ShellSort...
+With step sizes: 1093 364 121 40 13 4 1 
+Time elapsed: 95645
+With step sizes: 1123 373 149 53 17 5 1 
+Time elapsed: 82479
+With step sizes: 1080 360 120 60 30 10 1 
+Time elapsed: 92094
+With step sizes: 729 243 81 27 9 3 1 
+Time elapsed: 81967
+With step sizes: 2048 1024 512 256 128 64 32 16 8 4 2 1 
+Time elapsed: 109088
+
+Sorting with HeapSort...
+Time elapsed: 340569
+

@@ -15,7 +15,6 @@ public class AverageTimer {
 
   void stopTimer() {
     Long diff = System.nanoTime() - startTime;
-//    System.out.print(diff + " ");
     average = average * numOfTimes;
     numOfTimes += 1;
     average = (average + diff) / numOfTimes;

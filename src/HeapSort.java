@@ -1,14 +1,33 @@
+import java.io.BufferedWriter;
+import java.io.IOException;
+
 /**
  * Created by falko on 10-08-17.
  */
 public class HeapSort {
-  public static void sort(int[] toBeSorted) {
-    int[] result  = new int[toBeSorted.length];
-    Long startTime = System.nanoTime();
-    buildHeap(toBeSorted);
-    getSortedSeq(toBeSorted, result);
-    System.out.println("Time elapsed: " + (System.nanoTime() - startTime));
-    if (toBeSorted.length <= 50) ArrayOperations.printContents(result);
+  public static void sort(int[] toBeSorted, BufferedWriter bw) {
+    try {
+      bw.write("Sorting with HeapSort...");
+      bw.newLine();
+      int[] result  = new int[toBeSorted.length];
+      int numRepeats = 20;
+      AverageTimer at = new AverageTimer();
+      for (int i = 0; i < numRepeats; i++) {
+        at.startTimer();
+        buildHeap(toBeSorted);
+        getSortedSeq(toBeSorted, result);
+        at.stopTimer();
+        if (toBeSorted.length == 50 && i == 0) {
+          bw.write("Sorted result: ");
+          ArrayOperations.writeContents(result, bw);
+        }
+      }
+      bw.write("Time elapsed: " + at.getAverage());
+      bw.newLine();
+      bw.newLine();
+    } catch (IOException e) {
+
+    }
   }
 
   public static void buildHeap(int[] toBeSorted) {
