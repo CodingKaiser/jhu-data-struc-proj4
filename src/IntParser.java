@@ -28,4 +28,26 @@ class IntParser {
   static int toDigit(int c) {
     return (c - 48);
   }
+
+  /**
+   * Converts a string to an integer. If the string contains
+   * integers, it will add them to the final result from
+   * left to right. The integer "bar43f430r0" will be
+   * converted to 434300
+   * @param s: The input string that we wou would like to
+   *         parse into an integer. Should only contain
+   *         ints, won't handle negative signs
+   * @return The integer corresponding to the digits
+   *         found inside of the string.
+   */
+  static int toInteger(String s) {
+    int res = 0;
+    char[] chars = s.toCharArray();
+    for (char c : chars) {
+      if (isDigit(c)) {
+        res = res * 10 + toDigit(c);
+      }
+    }
+    return res;
+  }
 }
