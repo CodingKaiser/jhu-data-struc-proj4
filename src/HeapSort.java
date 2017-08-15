@@ -7,8 +7,10 @@ import java.io.IOException;
 public class HeapSort {
   public static void sort(int[] toBeSorted, BufferedWriter bw) {
     try {
-      bw.write("Sorting with HeapSort...");
-      bw.newLine();
+      if (toBeSorted.length == 50) {
+        bw.write("Sorting with HeapSort...");
+        bw.newLine();
+      }
       int[] result  = new int[toBeSorted.length];
       int numRepeats = 20;
       AverageTimer at = new AverageTimer();
@@ -22,9 +24,11 @@ public class HeapSort {
           ArrayOperations.writeContents(result, bw);
         }
       }
-      bw.write("Time elapsed: " + at.getAverage());
-      bw.newLine();
-      bw.newLine();
+      if (toBeSorted.length == 50) {
+        bw.write("Time elapsed: " + at.getAverage() + " nsec");
+        bw.newLine();
+        bw.newLine();
+      }
     } catch (IOException e) {
 
     }

@@ -14,12 +14,16 @@ public class ShellSort {
 
   public static void sort(int[] toBeSorted, BufferedWriter bw) {
     try {
-      bw.write("Sorting with ShellSort...");
-      bw.newLine();
+      if (toBeSorted.length == 50) {
+        bw.write("Sorting with ShellSort...");
+        bw.newLine();
+      }
       int[][] partitions = makePartitionsArray(toBeSorted);
       for (int[] partition : partitions) {
-        bw.write("With step sizes: ");
-        ArrayOperations.writeContents(partition, bw);
+        if (toBeSorted.length == 50) {
+          bw.write("With step sizes: ");
+          ArrayOperations.writeContents(partition, bw);
+        }
         int numRepeats = 20;
         AverageTimer at = new AverageTimer();
         for (int i = 0; i < numRepeats; i ++) {
@@ -32,10 +36,14 @@ public class ShellSort {
             ArrayOperations.writeContents(copy, bw);
           }
         }
-        bw.write("Time elapsed: " + at.getAverage());
+        if (toBeSorted.length == 50) {
+          bw.write("Time elapsed: " + at.getAverage() + " nsec");
+          bw.newLine();
+        }
+      }
+      if (toBeSorted.length == 50) {
         bw.newLine();
       }
-      bw.newLine();
     } catch (IOException e) {
       System.err.println(e);
     }
