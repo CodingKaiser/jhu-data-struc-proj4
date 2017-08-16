@@ -74,13 +74,16 @@ public class Lab4 {
       char c;
       int curr = 0;
       int i = 0;
-      bw.write("*********************************************");
-      bw.newLine();
-      bw.write("Sorting file: " + f.getName());
-      bw.newLine();
-      bw.write("Length of file: " + numOfEntries);
-      bw.newLine();
-      bw.newLine();
+      if (numOfEntries == 50) {
+        bw.write("*********************************************");
+        bw.newLine();
+        bw.write("Sorting file: " + f.getName());
+        bw.newLine();
+        bw.write("Length of file: " + numOfEntries);
+        bw.newLine();
+        bw.newLine();
+        bw.newLine();
+      }
       BufferedReader br = new BufferedReader(new FileReader(f));
       while (((currChar = br.read()) != -1)) {
         c = (char) currChar;
@@ -109,9 +112,11 @@ public class Lab4 {
       System.err.println(e);
     }
 
+    int[] copy = ArrayOperations.makeCopy(input);
+    int[] copy1 = ArrayOperations.makeCopy(input);
     ShellSort.sort(input, bw);
-    HeapSort.sort(input, bw);
-
+    HeapSort.sort(copy, bw);
+    InsertionSort.sort(copy1, bw);
   }
 
   /**

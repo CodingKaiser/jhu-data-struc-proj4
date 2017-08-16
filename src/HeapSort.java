@@ -28,6 +28,7 @@ public class HeapSort {
         bw.write("Time elapsed: " + at.getAverage() + " nsec");
         bw.newLine();
         bw.newLine();
+        bw.newLine();
       }
     } catch (IOException e) {
 

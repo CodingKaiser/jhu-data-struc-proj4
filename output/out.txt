@@ -1,135 +1,114 @@
 *********************************************
-Sorting file: asc1K.dat
-Length of file: 1000
-
-*********************************************
-Sorting file: asc25K.dat
-Length of file: 25000
-
-*********************************************
-Sorting file: asc2K.dat
-Length of file: 2000
-
-*********************************************
 Sorting file: asc50.dat
 Length of file: 50
 
+
 Sorting with ShellSort...
+
 With step sizes: 13 4 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 317 nsec
+Time elapsed: 303 nsec
+
 With step sizes: 5 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 155 nsec
+Time elapsed: 199 nsec
+
 With step sizes: 10 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 140 nsec
+Time elapsed: 112 nsec
+
 With step sizes: 9 3 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 230 nsec
+Time elapsed: 290 nsec
+
 With step sizes: 16 8 4 2 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 287 nsec
+Time elapsed: 375 nsec
+
 
 Sorting with HeapSort...
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 2596 nsec
+Time elapsed: 916 nsec
 
-*********************************************
-Sorting file: asc500.dat
-Length of file: 500
 
-*********************************************
-Sorting file: asc5K.dat
-Length of file: 5000
+Sorting with InsertionSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 54 nsec
 
-*********************************************
-Sorting file: ran1K.dat
-Length of file: 1000
-
-*********************************************
-Sorting file: ran25K.dat
-Length of file: 25000
-
-*********************************************
-Sorting file: ran2K.dat
-Length of file: 2000
 
 *********************************************
 Sorting file: ran50.dat
 Length of file: 50
 
+
 Sorting with ShellSort...
+
 With step sizes: 13 4 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 666 nsec
+Time elapsed: 624 nsec
+
 With step sizes: 5 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
 Time elapsed: 580 nsec
+
 With step sizes: 10 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 666 nsec
+Time elapsed: 652 nsec
+
 With step sizes: 9 3 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 668 nsec
+Time elapsed: 1326 nsec
+
 With step sizes: 16 8 4 2 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 653 nsec
+Time elapsed: 667 nsec
+
 
 Sorting with HeapSort...
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 990 nsec
+Time elapsed: 944 nsec
 
-*********************************************
-Sorting file: ran500.dat
-Length of file: 500
 
-*********************************************
-Sorting file: ran5K.dat
-Length of file: 5000
+Sorting with InsertionSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 1004 nsec
 
-*********************************************
-Sorting file: rev1K.dat
-Length of file: 1000
-
-*********************************************
-Sorting file: rev25K.dat
-Length of file: 25000
-
-*********************************************
-Sorting file: rev2K.dat
-Length of file: 2000
 
 *********************************************
 Sorting file: rev50.dat
 Length of file: 50
 
+
 Sorting with ShellSort...
+
 With step sizes: 13 4 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 418 nsec
+Time elapsed: 477 nsec
+
 With step sizes: 5 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 447 nsec
+Time elapsed: 535 nsec
+
 With step sizes: 10 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 461 nsec
+Time elapsed: 551 nsec
+
 With step sizes: 9 3 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 404 nsec
+Time elapsed: 420 nsec
+
 With step sizes: 16 8 4 2 1 
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 521 nsec
+Time elapsed: 553 nsec
+
 
 Sorting with HeapSort...
 Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
-Time elapsed: 915 nsec
+Time elapsed: 931 nsec
 
-*********************************************
-Sorting file: rev500.dat
-Length of file: 500
 
-*********************************************
-Sorting file: rev5K.dat
-Length of file: 5000
+Sorting with InsertionSort...
+Sorted result: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Time elapsed: 989 nsec
+
 

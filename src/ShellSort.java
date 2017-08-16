@@ -17,6 +17,7 @@ public class ShellSort {
       if (toBeSorted.length == 50) {
         bw.write("Sorting with ShellSort...");
         bw.newLine();
+        bw.newLine();
       }
       int[][] partitions = makePartitionsArray(toBeSorted);
       for (int[] partition : partitions) {
@@ -38,6 +39,7 @@ public class ShellSort {
         }
         if (toBeSorted.length == 50) {
           bw.write("Time elapsed: " + at.getAverage() + " nsec");
+          bw.newLine();
           bw.newLine();
         }
       }
